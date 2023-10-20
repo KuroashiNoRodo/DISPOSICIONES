@@ -158,7 +158,7 @@
       <option value="">Periodo</option>
         
        <?php 
-                while($carrerasReg=$rescarreras->fetch_array(MYSQLI_B<OTH)){
+                while($carrerasReg=$rescarreras->fetch_array(MYSQLI_BOTH)){
                   echo ' <option value="'.$carrerasReg['id_aplicacion'].'"> '.$carrerasReg['apli_generacion'].'</option>';
                 }
             ?> 
